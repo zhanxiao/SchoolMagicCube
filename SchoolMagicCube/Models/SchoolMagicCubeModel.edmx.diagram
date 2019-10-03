@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ebb0ac7609840619f630589c95d2ffc" Name="Diagram1">
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.City" Width="1.5" PointX="8" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Classes" Width="1.5" PointX="3" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Classroom" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.County" Width="1.5" PointX="10.25" PointY="2.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Course" Width="1.5" PointX="3" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Department" Width="1.5" PointX="3" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Dictionary" Width="1.5" PointX="8" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.DictionaryType" Width="1.5" PointX="5.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Employee" Width="1.5" PointX="3" PointY="23.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Log" Width="1.5" PointX="0.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Menu" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Province" Width="1.5" PointX="5.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Region" Width="1.5" PointX="12.5" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.School" Width="1.5" PointX="0.75" PointY="18.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.Student" Width="1.5" PointX="3" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.User" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="SchoolMagicCubeModel.UserSchool" Width="1.5" PointX="6" PointY="19.375" IsExpanded="true" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_CITY_CITY_REF__PROVINCE" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_COUNTY_COUNTY_RE_CITY" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_CLASSES_REFERENCE_SCHOOL" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_CLASSROO_REFERENCE_SCHOOL" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_REGION_REGION_RE_COUNTY" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_COURSE_REFERENCE_SCHOOL" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_DEPARTME_REFERENCE_SCHOOL" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_DICTIONA_REFERENCE_DICTIONA" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_EMPLOYEE_REFERENCE_SCHOOL" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_STUDENT_REFERENCE_SCHOOL" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_USERSCHO_REFERENCE_SCHOOL" ManuallyRouted="false" />
+        <AssociationConnector Association="SchoolMagicCubeModel.FK_USERSCHO_REFERENCE_USER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

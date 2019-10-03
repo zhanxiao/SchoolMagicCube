@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolMagicCube", "SchoolMagicCube\SchoolMagicCube.csproj", "{9D03C737-2477-4143-AD5C-FAB1FF1C4FFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D03C737-2477-4143-AD5C-FAB1FF1C4FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D03C737-2477-4143-AD5C-FAB1FF1C4FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D03C737-2477-4143-AD5C-FAB1FF1C4FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D03C737-2477-4143-AD5C-FAB1FF1C4FFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82334A5B-D87F-4302-8D6A-965B645F0A9A}
+	EndGlobalSection
+EndGlobal
